@@ -19,7 +19,7 @@
 
 	<div class="pagetitle"> Load Card </div> <hr> <br>
 	
-	<div class="bodymain">
+	
 		<form action="db_update.php" method="post">
 			<div class="row">
 				<div class="col-3 label">Card ID <text class="textlorange">*</text> </div>
