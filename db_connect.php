@@ -1,4 +1,3 @@
-testline
 <?php
 	/* DB Connection Function */
 	
