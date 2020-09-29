@@ -1,0 +1,156 @@
+
+
+/* input text, pass */
+input[type=text].login, input[type=password].login, select, textarea {
+  transition: 0.3s;
+  background-color: #bfbfbf;
+  width: 410px;
+  padding: 6px 8px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+}
+
+
+
+/* input submit */
+input[type=submit].login {
+  transition: 0.3s;
+  background-color: #5c5b5a;
+  color: white;
+  width: 410px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit].login:hover {
+  background-color: #363634;
+}
+
+input[type=submit].login:disabled {
+  background-color: #363634;
+}
+
+
+@media screen and (max-width: 1000px) {
+  input[type=text].login, input[type=password].login {
+    width: 100%;
+    /*width: calc(100% - 16px);*/
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  input[type=submit].login {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/* INPUT */
+
+.input {
+  transition: 0.3s;
+  /*background-color: #e0e0e0;*/
+  background-color: #d6d6d6;
+  /*color: #454545;*/
+  color: #1c1c1c;
+  width: 100%;
+  padding: 6px 8px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+}
+.input:focus {
+  background-color: white;
+}
+.input:disabled, .input[readonly], .input[readonly]:focus {
+  /*background-color: #b0b0b0;*/
+  background-color: #919191;
+}
+
+
+
+
+.input-modal {
+  transition: 0.3s;
+  background-color: #e0e0e0;
+  color: #454545;
+  width: 100%;
+  padding: 6px 8px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+}
+.input-modal:focus {
+  background-color: white;
+}
+.input-modal:disabled, .input-modal[readonly], .input-modal[readonly]:focus {
+  background-color: #b0b0b0;
+}
+
+
+
+
+
+/* BUTTONS */
+
+.add-register {
+  transition: 0.3s;
+  /*background-color: #baa999;*/
+  background-color: #948473;
+  /*color: #454545;*/
+  color: #1c1c1c;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-register:hover {
+  /*background-color: #9e8f80;*/
+  background-color: #6e6153;
+}
+
+.cancel {
+  transition: 0.3s;
+  /*background-color: #454444;*/
+  background-color: #3b3a3a;
+  color: #d9d9d9;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.cancel:hover {
+  /*background-color: #2b2b2b;*/
+  background-color: #333131;
+}
+
+.modalbtn {
+  transition: 0.3s;
+  background-color: #baa999;
+  color: #454545;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  overflow: visible;
+}
+
+.modalbtn:hover {
+  background-color: #9e8f80;
+}
+
+.modalbtn:disabled {
+  background-color: #9e8f80;
+}

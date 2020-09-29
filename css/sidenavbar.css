@@ -1,0 +1,104 @@
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 220px;
+  /*background-color: #111;*/
+  background-color: #7d766f;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  font-family: Verdana;
+  font-size: 15px; 
+  display: block;
+  /*color: #818181;*/
+  color: #e3e3e3;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  /*background-color: #7d766f;*/
+  background-color: #111;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  transition: 0.2s;
+  /*background-color: #615c57;*/
+  background-color: #57514b;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    font-size: 13px; 
+    float: left;
+    padding: 12px;
+  }
+  .bodymain {
+    padding-left: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar a {
+    font-size: 13px; 
+    padding: 4px;
+    text-align: center;
+    float: none;
+  }
+}
+
+
+.logout{
+  padding: 16px;
+}
+
+.logoutbtn {
+  transition: 0.3s;
+  background-color: #404040;
+  font-family: Verdana;
+  font-size: 14px; 
+  /*color: #5c5b5a;*/
+  color: #e0e0e0;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.logoutbtn:hover {
+  /*background-color: #363634;*/
+  background-color: #262626;
+}
+
+@media screen and (max-width: 800px) {
+  .logoutbtn {
+    font-family: Verdana;
+    font-size: 12px;
+    float: left;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logoutbtn {
+    font-family: Verdana;
+    font-size: 12px; 
+    margin-top: -10px;
+    margin-left: 42%;
+  }
+}

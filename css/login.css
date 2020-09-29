@@ -1,0 +1,53 @@
+
+.bgloginpage {
+  background-color: #111;
+}
+
+.bodylogin {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-left: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.left {
+  margin: 0;
+  padding: 20px;
+  padding-right: 0px;
+  width: 50%;
+  background-color: gray;
+  position: fixed;
+  height: 100%;
+}
+
+img.jeep {
+  max-width: 100%;
+  height: 100%;
+  float: right;
+   box-sizing: border-box;  
+}
+
+.loginform {
+  width: 100%;
+}
+
+.loginpage {
+  font-family: "Georgia";
+  font-size: 30px;
+  color:#e3e3e3;
+}
+
+.forgotpass {
+  color:#5c5c5c;
+  font-size: 12px;
+}
+
+
+@media screen and (max-height: 200px) {
+  .bodylogin {
+    padding-top: 25%;
+  }
+}
