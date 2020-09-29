@@ -36,7 +36,7 @@
 			<br><br>
 		</center>
 		
-		 FOR TESTING
+		 <!-- FOR TESTING
     	<form action="fromRPI.php" method="post">
     	    <input type="text" name="driverid" id="driverid" placeholder="Driver ID" required="required">
     	    <input type="text" name="rfid" id="rfid" placeholder="RFID ID" required="required">
@@ -46,7 +46,7 @@
     	    <input type="text" name="long2" id="long2" placeholder="long 2" required="required">
     	    
     	    <input type="submit" value="send"><br>
-    	</form> 
+    	</form>  -->
     	
 	</div>
 	
